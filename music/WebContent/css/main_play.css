@@ -1,0 +1,21 @@
+			*{margin:0; padding:0}
+			body{background:#fff no-repeat top center;}
+			.player{bottom:15px;width:563px; height:115px; background:#000; position:fixed; left:0px; box-shadow:0px 0px 15px 0px #000}
+			.player .p_picture img{float:left; margin-top:12px;}
+			.player .p_picture p{font-size:15px; color:#fff; float:left; line-height:115px; padding-left:20px;}
+			.player .p_picture .p_title{width:150px; overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+			.player .btn{width:180px; height:52px; margin:30px 0 0 260px;}
+			.player .btn a{ display:block; background:url("../images/player_bg.png") no-repeat; float:left; margin:5px 10px}
+			.player .btn .b_prev{width:36px; height:28px; background-position:-68px 0; margin-top:12px;}
+			.player .btn .b_prev:hover{background-position:-68px -32px;}
+			.player .btn .b_play{width:42px; height:42px;background-position:-105px 0; }
+			.player .btn .b_play:hover{background-position:-105px -42px; }
+			.player .btn .b_pause{width:42px; height:42px;background-position:-291px -88px; display:none }
+			.player .btn .b_pause:hover{width:42px; height:42px;background-position:-333px -88px;  }
+			.player .btn .b_next{width:36px; height:28px; background-position:-147px 0px; margin-top:12px;}
+			.player .btn .b_next:hover{background-position:-147px -32px;}
+			.player .p_packup{height:115px; width:22px; background:url("../images/player_bg.png") no-repeat; float:right; margin-top:-82px }
+			.player .open_list {background: transparent url("../images/player_bg.png") no-repeat scroll -222px -97px;display: inline-block; width: 20px;height: 28px; border: 0px none;position: absolute;top: 0px;right: 61px;cursor: pointer;}
+			.player .play_list_main{width: 550px;height: 350px;position: absolute;top:-350px;}
+
+			

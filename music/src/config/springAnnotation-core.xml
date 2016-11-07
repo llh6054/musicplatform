@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd" [
+<!ENTITY contextInclude SYSTEM "org/springframework/web/context/WEB-INF/contextInclude.xml">
+]>
+
+<beans>
+	<bean id="baseDAO" class="com.design.dao.BaseDAO">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="musicService" class="com.design.service.MusicService">
+		<property name="baseDAO" ref="baseDAO"></property>
+	</bean>
+	<bean id="singerService" class="com.design.service.SingerService">
+		<property name="baseDAO" ref="baseDAO"></property>
+	</bean>
+	<bean id="listService" class="com.design.service.MusicListService">
+		<property name="baseDAO" ref="baseDAO"></property>
+	</bean>
+	<bean id="userService" class="com.design.service.UserService">
+		<property name="baseDAO" ref="baseDAO"></property>
+	</bean>
+	
+	<bean id="music" class="com.design.entity.Music" />
+	<bean id="singer" class="com.design.entity.Singer" />
+	<bean id="user" class="com.design.entity.User" />
+	<bean id="musicList" class="com.design.entity.MusicList" />
+	<bean id="userMusic" class="com.design.entity.UserMusic" />
+</beans>

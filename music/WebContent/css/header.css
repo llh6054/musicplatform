@@ -1,0 +1,13 @@
+	
+	*{margin:0; padding:0}
+	body{background:#fff no-repeat top center;}
+	.header{width:100%; height:80px; background:#333;}
+	.m_logo img{float:left;margin-left:200px; margin-top:5px; border-radius:20px}
+	.m_words{font-size:50px; font-weight:bold; color:#fff;line-height:70px; float:left; }
+	.header a{font-size:20px; color:#ccc; text-decoration:none;
+		float:left; margin-top:30px; margin-left:20px;}
+	.m_search{position:relative; float:left; margin-top:25px;}
+	.m_search input{float:left; margin-left:120px; width:220px; height:33px; border-radius:15px;}
+	.m_search .search{position: absolute; height:33px; width:30px; right:10px; display:block; top:2px;
+	 background:url(../images/search.png) no-repeat; margin:0; }
+	 .login_out{float:right; margin-right:20px;}

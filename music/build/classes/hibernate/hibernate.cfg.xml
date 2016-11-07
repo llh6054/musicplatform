@@ -1,0 +1,19 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+    	<mapping class="com.design.entity.User"/>
+    	<mapping class="com.design.entity.UserMusic"/>
+        <mapping class="com.design.entity.Administrator"/>
+        <mapping class="com.design.entity.Music"/>
+        <mapping class="com.design.entity.MusicList"/>
+        <mapping class="com.design.entity.MusicListSong"/>
+        <mapping class="com.design.entity.MusicListTag"/>
+        <mapping class="com.design.entity.MusicListTagLink"/>
+        <mapping class="com.design.entity.Singer"/>
+        <mapping class="com.design.entity.SingerTag"/>
+        <mapping class="com.design.entity.SingerTagLink"/>
+    </session-factory>      
+</hibernate-configuration> 
